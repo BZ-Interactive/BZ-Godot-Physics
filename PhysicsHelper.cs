@@ -82,8 +82,8 @@ public static class PhysicsHelper
     /// <param name="direction">The direction vector for the ray.</param>
     /// <param name="distance">The maximum distance the ray should travel.</param>
     /// <param name="layerMask">The collision mask to check against.</param>
-    /// <param name="collideWithAreas">If true, the ray will detect Area3D nodes.</param>
-    /// <returns>A CastHit containing intersection data.</returns>
+    /// <param name="collideWithAreas">If true, the ray will detect Area3D nodes as well.</param>
+    /// <returns>A CastHit containing intersection data, or an empty CastHit if nothing was hit.</returns>
 	public static CastHit CastRay3D(this Node3D sender, Vector3 from, Vector3 direction, float distance, uint layerMask = uint.MaxValue, bool collideWithAreas = false)
 	{
 		Vector3 to = from + (direction.Normalized() * distance);
