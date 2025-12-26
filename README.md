@@ -11,7 +11,7 @@ A clean, optimized C# physics utility for Godot 4+. Simplifies low-level raycast
 
 ## Installation
 
-Simply add `PhysicsHelper.cs` to your Godot project folder.
+Simply add `PhysicsHelper.cs` to your Godot project, anywhere in your `res://` directory.
 
 ## Usage
 
@@ -39,7 +39,7 @@ CastHit lineHit = this.CastLine3D(
 );
 ```
 
-> **Note**: Methods are available as extensions on any `Node3D`. Ensure you have `using BZ.Physics;` at the top of your file.
+> **Note**: Methods are available as extensions on any `Node3D`. Ensure you have `using BZ.Physics;` at the top of your script.
 
 ## License
 
