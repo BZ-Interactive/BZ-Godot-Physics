@@ -39,6 +39,8 @@ CastHit lineHit = this.CastLine3D(
 );
 ```
 
+> **Note**: Methods are available as extensions on any `Node3D`. Ensure you have `using BZ.Physics;` at the top of your file.
+
 ## License
 
 MIT License - See [LICENSE](LICENSE) for details.
