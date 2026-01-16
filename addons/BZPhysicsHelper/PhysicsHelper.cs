@@ -1,7 +1,7 @@
 /*
  * PhysicsHelper.cs
  * Developed by Barkın ZORLU
- * Repository: https://github.com/ZorluBarkin/BZ-Godot-Physics
+ * Repository: https://github.com/BZ-Interactive/BZ-Godot-Settings-System
  * * A high-performance utility for Godot 4+ in C# to simplify 3D Raycasting.
  * Provides structured results (CastHit) and bitmask generation.
  */
