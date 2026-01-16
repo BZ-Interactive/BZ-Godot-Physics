@@ -4,7 +4,7 @@
 ![Version](https://img.shields.io/badge/version-1.0-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-A clean, high-performance C# physics utility for Godot 4+. Simplifies low-level 3D raycasting with structured result containers and provides easy collision mask generation. Just one file, zero dependencies.
+A clean, high-performance C# physics addon for Godot 4+. Simplifies low-level 3D raycasting with structured result containers and provides easy collision mask generation via extension methods.
 
 ## ✨ Features
 
@@ -20,8 +20,8 @@ A clean, high-performance C# physics utility for Godot 4+. Simplifies low-level 
 - Simple helper method to generate collision layer masks
 - Uses 1-based layer numbers for intuitive usage
 
-### ⚡ Zero Dependencies
-- Just one file (`PhysicsHelper.cs`)
+### ⚡ Lightweight
+- Minimal footprint addon
 - Pure Godot 4+ C# code
 
 ## 📋 Requirements
@@ -32,9 +32,15 @@ A clean, high-performance C# physics utility for Godot 4+. Simplifies low-level 
 
 ## 📦 Installation
 
-1. Download `PhysicsHelper.cs` from this repository
-2. Add it anywhere in your Godot project's `res://` directory
-3. Add `using BZ.Physics;` to your scripts
+### From Asset Library
+1. Search for "BZ Godot Physics" in the Godot Asset Library
+2. Click Install and enable the plugin in **Project → Project Settings → Plugins**
+
+### Manual Installation
+1. Download or clone this repository
+2. Copy the `addons/BZPhysicsHelper` folder into your project's `addons/` directory
+3. Enable the plugin in **Project → Project Settings → Plugins**
+4. Add `using BZ.Physics;` to your scripts
 
 ## 🚀 Quick Start
 
@@ -138,9 +144,13 @@ Generates a collision mask bitfield by combining the specified physics layer num
 
 ```
 BZ-Godot-Physics/
-├── PhysicsHelper.cs    # Main utility file (add this to your project)
-├── LICENSE             # MIT License
-└── README.md           # This file
+├── addons/
+│   └── BZPhysicsHelper/
+│       ├── PhysicsHelper.cs    # Main utility file with extension methods
+│       ├── PluginMain.cs       # Plugin entry point
+│       └── plugin.cfg          # Plugin configuration
+├── LICENSE                     # MIT License
+└── README.md                   # This file
 ```
 
 ## 💡 Example Use Cases
@@ -164,9 +174,10 @@ Contributions are welcome! Feel free to:
 
 ## ⚠️ Notes
 
-- This utility is for **3D physics only**
+- This addon is for **3D physics only**
 - Uses C# - .NET-enabled Godot builds required
 - Layer numbers are **1-based** (matching Godot's editor UI)
+- Remember to enable the plugin after installation
 
 ---
 
