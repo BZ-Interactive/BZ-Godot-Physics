@@ -1,0 +1,42 @@
+# --- Godot 4 Core ---
+.godot/
+.nomedia
+
+# --- Project Specific ---
+export.cfg
+export_presets.cfg
+*.tmp
+
+# --- C# & Mono (if applicable) ---
+.mono/
+bin/
+obj/
+*.sln
+*.csproj
+*.userprefs
+mono_crash.*.json
+
+# --- IDEs & Tools ---
+.vscode/
+.vs/
+.idea/
+*.log
+
+# --- OS Junk ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# --- Custom ---
+Exports/
+
+# --- Additional Godot Patterns ---
+*.translation
+addon_cache/
+.godot.lock
+
+# --- Backup & Temp Files ---
+*.bak
+*.backup
