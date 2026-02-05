@@ -1,3 +1,11 @@
-# Handle all text automatically
+# Normalize line endings for all files that Git considers text files.
 * text=auto eol=lf
 *.png binary
+
+# Only include the addons folder when downloading from the Asset Library.
+/**        export-ignore
+/addons    !export-ignore
+/addons/** !export-ignore
+# Always include the README in exports
+README.md !export-ignore
+
