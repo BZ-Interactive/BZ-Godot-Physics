@@ -1,10 +1,12 @@
+<img src="addons/BZPhysicsHelper/BZ-Interactive-Physics-Helper-icon.png" alt="BZ Physics Helper" style="float:left; width:200px; height:200px; padding:10px;" />
+
 # BZ Godot Physics
 
-![Godot 4+](https://img.shields.io/badge/Godot-4%2B-478CBF)
-![Version](https://img.shields.io/badge/version-1.0-orange)
-![License](https://img.shields.io/badge/license-MIT-green)
+![Godot 4+](https://img.shields.io/badge/Godot-4%2B-478CBF) ![Version](https://img.shields.io/badge/version-1.0-orange) ![License](https://img.shields.io/badge/license-MIT-green)
 
-A clean, high-performance C# physics addon for Godot 4+. Simplifies low-level 3D raycasting with structured result containers and provides easy collision mask generation via extension methods.
+**A lightweight, high-performance C# physics helper for Godot 4+.** Provides easy-to-use extension methods for 3D raycasts and linecasts, a tidy `CastHit` result struct, and a simple collision mask helper.
+
+<div style="clear:both;"></div>
 
 ## ✨ Features
 
@@ -171,6 +173,13 @@ Contributions are welcome! Feel free to:
 - Report bugs via [Issues](https://github.com/BZ-Interactive/BZ-Godot-Physics/issues)
 - Submit feature requests
 - Create pull requests
+
+## 📬 Contact
+
+[![Email](https://img.shields.io/badge/-barkin.zorlu.bz@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:barkin.zorlu.bz@gmail.com)
+
+[![GitHub](https://img.shields.io/badge/-@ZorluBarkin-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ZorluBarkin)
+[![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/barkin-zorlu)
 
 ## ⚠️ Notes
 
