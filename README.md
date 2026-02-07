@@ -1,12 +1,36 @@
-<img src="addons/BZPhysicsHelper/BZ-Interactive-Physics-Helper-icon.png" alt="BZ Physics Helper" style="float:left; width:200px; height:200px; padding:10px;" />
-
-# BZ Godot Physics
-
-![Godot 4+](https://img.shields.io/badge/Godot-4%2B-478CBF) ![Version](https://img.shields.io/badge/version-1.0-orange) ![License](https://img.shields.io/badge/license-MIT-green)
-
-**A lightweight, high-performance C# physics helper for Godot 4+.** Provides easy-to-use extension methods for 3D raycasts and linecasts, a tidy `CastHit` result struct, and a simple collision mask helper.
-
-<div style="clear:both;"></div>
+<br />
+<div align="center">
+  <table>
+    <tr>
+      <td valign="middle" style="padding-right:10px">
+        <a href="https://github.com/BZ-Interactive/BZ-Godot-Physics">
+          <img src="addons/BZPhysicsHelper/BZ-Interactive-Physics-Helper-icon.png" alt="BZ Godot Physics logo" width="200" height="200">
+        </a>
+      </td>
+      <td valign="middle" style="text-align:left; max-width:720px">
+        <h3 style="margin:0">BZ Godot Physics</h3>
+        <p style="margin-top:8px; margin-bottom:8px; text-align:left">
+          A lightweight, high-performance C# physics helper for Godot 4+. Provides easy-to-use extension methods for 3D raycasts and linecasts, a tidy <code>CastHit</code> result struct, and a simple collision mask helper.
+        </p>
+        <p style="margin:10px 10; text-align:left">
+          <img src="https://img.shields.io/badge/Godot-4%2B-478CBF" alt="Godot 4+" style="margin-right:5px; vertical-align:middle;" />
+          <img src="https://img.shields.io/badge/version-1.0-orange" alt="Version" style="margin-right:5px; vertical-align:middle;" />
+          <img src="https://img.shields.io/badge/license-MIT-green" alt="License" style="margin-right:5px; vertical-align:middle;" />
+        </p>
+        <p style="margin:0; text-align:left">
+          <a href="https://github.com/BZ-Interactive/BZ-Godot-Physics"><strong>Explore the repo »</strong></a>
+          &nbsp;&nbsp;|&nbsp;&nbsp;
+          <a href="https://github.com/BZ-Interactive/BZ-Godot-Physics/releases">See Releases</a>
+          &nbsp;·&nbsp;
+          <a href="https://github.com/BZ-Interactive/BZ-Godot-Physics/issues">Request Feature</a>
+          &nbsp;·&nbsp;
+          <a href="https://github.com/BZ-Interactive/BZ-Godot-Physics/issues">Report Bug</a>
+        </p>
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## ✨ Features
 
