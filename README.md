@@ -7,7 +7,7 @@
           <img src="addons/BZPhysicsHelper/BZ-Interactive-Physics-Helper-icon.png" alt="BZ Godot Physics logo" width="200" height="200">
         </a>
       </td>
-      <td valign="middle" style="text-align:left; max-width:600px">
+      <td valign="middle" style="text-align:left; max-width:500px">
         <h3 style="margin:0">BZ Godot Physics</h3>
         <p style="margin-top:8px; margin-bottom:8px; text-align:left">
           A lightweight, high-performance C# physics helper for Godot 4+. Provides easy-to-use extension methods for 3D raycasts and linecasts, a tidy <code>CastHit</code> result struct, and a simple collision mask helper.
