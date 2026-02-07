@@ -205,6 +205,8 @@ Contributions are welcome! Feel free to:
 [![GitHub](https://img.shields.io/badge/-@ZorluBarkin-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ZorluBarkin)
 [![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/barkin-zorlu)
 
+Project Link: https://github.com/BZ-Interactive/BZ-Godot-Physics
+
 ## ⚠️ Notes
 
 - This addon is for **3D physics only**
