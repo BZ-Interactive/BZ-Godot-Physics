@@ -14,7 +14,7 @@
         </p>
         <p style="margin:10px 10; text-align:left">
           <img src="https://img.shields.io/badge/Godot-4%2B-478CBF" alt="Godot 4+" style="margin-right:5px; vertical-align:middle;" />
-          <img src="https://img.shields.io/badge/version-1.0-orange" alt="Version" style="margin-right:5px; vertical-align:middle;" />
+          <img src="https://img.shields.io/badge/version-1.1-orange" alt="Version" style="margin-right:5px; vertical-align:middle;" />
           <img src="https://img.shields.io/badge/license-MIT-green" alt="License" style="margin-right:5px; vertical-align:middle;" />
         </p>
         <p style="margin:0; text-align:left">
@@ -217,4 +217,3 @@ Project Link: https://github.com/BZ-Interactive/BZ-Godot-Physics
 ---
 
 Made with ❤️ for the Godot Community
-
